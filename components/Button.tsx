@@ -1,4 +1,4 @@
-import {fugaz} from '../app/layout'
+import {fugaz} from '../utils/fonts'
 
 type ButtonProps = {
     text: string;

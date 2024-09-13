@@ -1,5 +1,5 @@
 import Main from "./Main";
-import { fugaz } from '../app/layout'
+import { fugaz } from '../utils/fonts'
 import Button from "./Button";
 import Calendar from "./Calendar";
 import Link from "next/link";

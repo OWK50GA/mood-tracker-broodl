@@ -3,7 +3,7 @@
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { useState } from 'react';
 import {gradients, baseRating} from '../utils/index'
-import {fugaz} from '../app/layout'
+import {fugaz} from '../utils/fonts'
 
 type Months = {
     [key: string]: string;

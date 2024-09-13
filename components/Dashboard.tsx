@@ -1,7 +1,7 @@
 'use client'
 
 import { useAuth } from '@/context/AuthContext';
-import {fugaz} from '../app/layout'
+import {fugaz} from '../utils/fonts'
 import Calendar from './Calendar';
 import React, { useEffect, useState } from 'react';
 import { doc, setDoc } from 'firebase/firestore';
