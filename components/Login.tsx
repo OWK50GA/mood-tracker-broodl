@@ -1,5 +1,5 @@
 import Main from "./Main";
-import {fugaz} from '../app/layout'
+import {fugaz} from '../utils/fonts'
 import Button from "./Button";
 import { useState } from "react";
 import { useAuth } from "@/context/AuthContext";
@@ -18,6 +18,10 @@ const Login = () => {
     const handleSubmit = async () => {
         setIsAuthenticating(true)
         try {
+
+            if (!signup || !login) {
+                return
+            }
             if (!email || !password || password.length < 6) {
                 return
             }
