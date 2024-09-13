@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Fugaz_One, Open_Sans } from "next/font/google";
+import { Open_Sans } from "next/font/google";
+import {fugaz} from '../utils/fonts'
 import "./globals.css";
 // import { Header } from "next/dist/lib/load-custom-routes";
 import Link from "next/link";
@@ -7,7 +8,6 @@ import { AuthProvider } from "@/context/AuthContext";
 import Logout from "@/components/Logout";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
-export const fugaz = Fugaz_One({ subsets: ["latin"], weight: ['400'] });
 
 const metadata: Metadata = {
   title: "Broodl",
